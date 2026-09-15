@@ -1,0 +1,156 @@
+@font-face {
+	font-family: "Michegar";
+	src: url("Michegar.ttf");
+}
+
+@font-face {
+	font-family: "Amsterdam Four";
+	src: url("Amsterdam 400.ttf");
+}
+
+html, body {
+	background-color: #e7e5e5;
+	margin: 0;
+	padding: 0;
+}
+
+.divco {
+	background-color: #e7e5e5;
+	padding-bottom: 0.5%;
+}
+
+header {
+	display: flex;
+	background-color: #4e9f2c;
+	padding: 0.5%;
+	justify-content: center;
+	align-items: center;
+	gap: 0%;
+}
+
+h1 {
+	font-family: "League Spartan", sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	font-family: "Amsterdam Four", sans-serif;
+}
+
+footer {
+	display: flex;
+	font-family: "League Spartan", sans-serif;
+	font-weight: bold;
+	background-color: #dd1300;
+	color: white;
+	max-width: 45%;
+	align-content: center;
+	justify-content: center;
+	padding: 0.5%;
+	bottom: 1%;
+}
+
+.txtmiche {
+	font-family: "Michegar", sans-serif;
+}
+
+.txtlea {
+	font-family: "League Spartan", sans-serif;
+}
+
+.btnav {
+	display: flex;
+	background-color: white;
+	font-family: "Arial", sans-serif;
+	font-weight: bold;
+	padding: 0.3%;
+	width: 10%;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	font-size: 85%;
+	justify-content: center;
+}
+
+.btnav:hover {
+	background-color: #e7e5e5;
+}
+
+.caf {
+	color:#372611;
+}
+
+.ver {
+	color:#006341;
+}
+
+.posicion {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.ital {
+	font-style: italic;
+}
+
+.ne {
+	font-weight: bold;
+}
+
+.pc {
+	display: flex;
+	justify-content: space-between;
+  	align-items: center;
+  	width: 90%;
+}
+
+.pc p {
+	text-align: center;
+	padding-left: 10%;
+	margin: 0;
+	border-right: 1px;
+	flex: 1;
+	font-size: 185%;
+}
+
+.pc span {
+	text-align: center;
+	padding-left: 10%;
+	margin: 0;
+	border-right: 1px;
+	flex: 1;
+	font-size: 165%;
+	padding-bottom: 57%;
+}
+
+.pc img {
+	text-align: center;
+	padding-left: 10%;
+	margin: 0;
+	border-right: 1px;
+	flex: 1;
+	font-size: 115%;
+	align-items: center;
+}
+
+
+.lin {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	flex: 1;
+}
+
+.pc2 {
+	display: flex;
+	justify-content: space-between;
+  	width: 90%;
+}
+
+.pc2 p {
+	padding-left: 10%;
+	font-size: 115%;
+}
